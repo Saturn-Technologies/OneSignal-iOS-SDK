@@ -138,7 +138,7 @@ THE SOFTWARE.
     builder.influenceChannel = [self channelType];
     
     if (_influenceType == DIRECT) {
-        if ([self isDirectSessionEnabled]) {
+        if ([self isDirectSessionEnabled] && _directId != nil) {
             NSArray *ids = [NSArray arrayWithObject:_directId];
             builder.ids = ids;
             builder.influenceType = DIRECT;
