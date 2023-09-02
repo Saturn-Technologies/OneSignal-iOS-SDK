@@ -641,8 +641,6 @@ static OneSignalOutcomeEventsController *_outcomeEventsController;
  Method must be called to successfully init OneSignal
  */
 + (void)initWithLaunchOptions:(nullable NSDictionary*)newLaunchOptions {
-    abort();
-
     [OneSignal onesignalLog:ONE_S_LL_VERBOSE message:[NSString stringWithFormat:@"setLaunchOptions() called with launchOptions: %@!", launchOptions.description]];
 
     launchOptions = newLaunchOptions;
