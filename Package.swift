@@ -43,23 +43,23 @@ let package = Package(
         ),
         .binaryTarget(
           name: "OneSignal",
-          url: "https://github.com/Saturn-Technologies/OneSignal-iOS-SDK/releases/download/3.12.8/OneSignal.xcframework.zip",
-          checksum: "0bb25babef943b6ed88853806ae4d57816f5ffb26a515669b0fb1ddeacd668a6"
+          url: "https://github.com/Saturn-Technologies/OneSignal-iOS-SDK/releases/download/3.12.9/OneSignal.xcframework.zip",
+          checksum: "958035d6f44100f7e718279c513d558ebcee6e83d76a198cea65a334658f361e"
         ),
         .binaryTarget(
           name: "OneSignalExtension",
-          url: "https://github.com/Saturn-Technologies/OneSignal-iOS-SDK/releases/download/3.12.8/OneSignalExtension.xcframework.zip",
-          checksum: "9e65dd8875b058da36bd847f15d2f61cce9165125faeddf03a1183e4426dfe67"
+          url: "https://github.com/Saturn-Technologies/OneSignal-iOS-SDK/releases/download/3.12.9/OneSignalExtension.xcframework.zip",
+          checksum: "bad4f1bbfe675f36e04b05567583273cd0624709b2c248bc631d6fe69cc7ddb6"
         ),
         .binaryTarget(
           name: "OneSignalOutcomes",
-          url: "https://github.com/Saturn-Technologies/OneSignal-iOS-SDK/releases/download/3.12.8/OneSignalOutcomes.xcframework.zip",
-          checksum: "65556e3960f9f486794a7a13f34dd787b98f63bd8e1ba4e26056f0ab9f0808ce"
+          url: "https://github.com/Saturn-Technologies/OneSignal-iOS-SDK/releases/download/3.12.9/OneSignalOutcomes.xcframework.zip",
+          checksum: "962dda99792fbe8c06897c303e7e5c4ac12f21fab0877394a32e4dae2e147260"
         ),
         .binaryTarget(
           name: "OneSignalCore",
-          url: "https://github.com/Saturn-Technologies/OneSignal-iOS-SDK/releases/download/3.12.8/OneSignalCore.xcframework.zip",
-          checksum: "a934d200ec5d46e356df740436dbfcf0a58e4879ee775254b1732dd08c837215"
+          url: "https://github.com/Saturn-Technologies/OneSignal-iOS-SDK/releases/download/3.12.9/OneSignalCore.xcframework.zip",
+          checksum: "4e922adf8bcee715cff5811797008e0c627315413dca1d3334642de162d4260b"
         )
     ]
 )
